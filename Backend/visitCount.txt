@@ -1,0 +1,60 @@
+7
+
+
+**Core Features for Legal Notice Platform (React + Node.js + PostgreSQL + Paystack)**
+
+Here are the 5 most important features the platform must include:
+
+---
+
+### 1. **Form Generator for Legal Notices**
+
+* Dynamic forms for:
+
+  * Change of Name
+  * Court Affidavit
+  * Lost Document Declaration
+  * Correction of Name
+  * Next of Kin Declaration
+* Conditional fields depending on notice type
+* Input validation & autofill for returning users
+
+### 2. **PDF Preview and Generator**
+
+* Real-time preview of the notice before submission
+* PDF generated after form submission
+* Downloadable and sharable link sent to user
+* Hosted securely with Cloudinary
+
+### 3. **Online Payment Integration (Paystack)**
+
+* Flat pricing model with coupon support
+* Payment verification callback on backend
+* Store transaction status in PostgreSQL
+* Email/WhatsApp confirmation after payment
+
+### 4. **Admin Dashboard (Manual or Automated Flow)**
+
+* List of all submitted notices
+* Approve/reject functionality
+* Option to forward to partner newspaper emails
+* Status change logs
+
+### 5. **User Dashboard & Submission History**
+
+* Login (email or phone + OTP/password)
+* See previously submitted notices
+* Re-download PDFs
+* Track publication status
+
+---
+
+**React Wireframe Structure (Page-Level)**
+
+* `/` — Homepage (How it works, Start Now CTA)
+* `/submit` — Form Wizard (Step 1: Select Notice → Step 2: Fill → Step 3: Preview → Step 4: Payment)
+* `/confirmation` — After payment success
+* `/dashboard` — User dashboard
+* `/admin` — Admin dashboard (protected)
+
+Would you like a visual wireframe (Figma-style) generated next?
