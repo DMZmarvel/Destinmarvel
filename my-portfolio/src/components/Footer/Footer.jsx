@@ -167,25 +167,6 @@ export const Footer = ({ language }) => {
               <h1> {t.logo}</h1>
             </div>
 
-            {/* <div className="surcrib">
-              <h2>{t.subscribeTitle}</h2>
-
-              <input
-                type="email"
-                id="email"
-                placeholder=" Enter your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-
-              <button onClick={handelSubmit}>
-                <a href="https://www.youtube.com/@DestinMarvel">
-                  {" "}
-                  {t.subscribeButton}
-                </a>
-              </button>
-            </div> */}
-
             <div className="surcrib">
               <h2>{t.subscribeTitle}</h2>
 
