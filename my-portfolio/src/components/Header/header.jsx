@@ -76,7 +76,6 @@ const Header = () => {
                   Software-Developer
                 </text>
               </svg>
-              <span className="text snd-text">Programmer</span>
             </div>
 
             {/* Counters */}
