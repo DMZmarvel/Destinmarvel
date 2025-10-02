@@ -198,7 +198,6 @@ export const Footer = ({ language }) => {
               {t.privacy}
             </a>
             <a onClick={() => handleOpenContent("FAQ")}>{t.faq}</a>
-            {/*<button onClick={goTocontact}>go to about</button>*/}
           </div>
 
           <div className="insidefot4">
