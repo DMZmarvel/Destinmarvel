@@ -232,7 +232,10 @@ export const Footer = ({ language }) => {
               <a href="https://www.facebook.com/profile.php?id=100073069950448">
                 <FaFacebookF className="icons " />
               </a>
-              <a href="https://www.linkedin.com/in/destin-marvel-29721427a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <a
+                href="https://www.linkedin.com/in/codedmz/
+              "
+              >
                 <FaLinkedinIn className="icons " />
               </a>
             </div>
